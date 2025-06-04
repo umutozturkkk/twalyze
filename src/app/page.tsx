@@ -7,8 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Home() {
   const [tweetUrl, setTweetUrl] = useState("");
-  const [isMock, setIsMock] = useState(false);
-  const [result, setResult] = useState<any | null>(null);
+  const [result, setResult] = useState<typeof tweetMockData[number] | null>(null);
   const [error, setError] = useState("");
 
   function validateUrl(url: string) {
