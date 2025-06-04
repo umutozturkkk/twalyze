@@ -12,7 +12,7 @@ Analiz edilen her tweet, aynı zamanda otomatik olarak bir **Google Sheets** bel
 
 Aşağıda Twalyze uygulamasının arayüzünden bir örnek yer almaktadır:
 
-![Uygulama Ekran Görüntüsü](public/screenshot.png)
+![Uygulama Ekran Görüntüsü](public/screenshot.jpeg)
 
 ---
 
