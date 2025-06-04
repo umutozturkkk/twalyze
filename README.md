@@ -43,7 +43,7 @@ Kayıt edilen bilgiler:
 
 ## 🖥️ Kullanılan Teknolojiler
 
-- **Framework:** Next.js
+- **Framework:** Next.js — React tabanlı full-stack framework
 - **Stil:** Tailwind CSS
 - **Veri Kaydı:** Google Sheets API
 
