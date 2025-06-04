@@ -1,9 +1,6 @@
 import { google } from 'googleapis';
 import { NextRequest, NextResponse } from 'next/server';
 
-// You must add these to your .env.local:
-// GOOGLE_SHEETS_PRIVATE_KEY, GOOGLE_SHEETS_CLIENT_EMAIL, GOOGLE_SHEETS_SHEET_ID
-
 export async function POST(req: NextRequest) {
   const body = await req.json();
   const { username, content, summary, sentiment, timestamp } = body;
@@ -22,7 +19,7 @@ export async function POST(req: NextRequest) {
   try {
     await sheets.spreadsheets.values.append({
       spreadsheetId: sheetId,
-      range: 'Sheet1', // Change if your sheet/tab has a different name
+      range: 'Sheet1', 
       valueInputOption: 'USER_ENTERED',
       requestBody: {
         values: [[username, content, summary, sentiment, timestamp]],
