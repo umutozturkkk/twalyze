@@ -8,6 +8,29 @@ Analiz edilen her tweet, aynı zamanda otomatik olarak bir **Google Sheets** bel
 
 ---
 
+## 🖼️ Uygulama Ekran Görüntüsü
+
+Aşağıda Twalyze uygulamasının arayüzünden bir örnek yer almaktadır:
+
+![Uygulama Ekran Görüntüsü](public/screenshot.png)
+
+---
+
+## 📊 Google Sheets Entegrasyonu
+
+Uygulama her analiz sonucunu gerçek zamanlı olarak bağlı bir **Google Sheets** belgesine işler.
+
+🔗 **Google Sheets bağlantısı:** [Tweet Analiz Kayıt Tablosu](https://docs.google.com/spreadsheets/d/16XqIKO4iVRCNXnp7An6NPQ7G_Fy4Bg_ctlKkLI6K8Gw/edit?usp=sharing)
+
+Kayıt edilen bilgiler:
+- Kullanıcı adı
+- Tweet içeriği
+- Duygusal ton
+- Özet
+- Tarih ve zaman
+
+---
+
 ## ✨ Özellikler
 
 - 🔗 Herhangi bir **Twitter / X bağlantısını** analiz et (şu anda *mock* veri üzerinden)
@@ -34,20 +57,5 @@ Analiz edilen her tweet, aynı zamanda otomatik olarak bir **Google Sheets** bel
 4. Sonuçlar:
    - Ekranda gösterilir
    - Google Sheets belgesine eklenir
-
----
-
-## 📊 Google Sheets Entegrasyonu
-
-Uygulama her analiz sonucunu gerçek zamanlı olarak bağlı bir **Google Sheets** belgesine işler.
-
-🔗 **Google Sheets bağlantısı:** [Tweet Analiz Kayıt Tablosu](https://docs.google.com/spreadsheets/d/16XqIKO4iVRCNXnp7An6NPQ7G_Fy4Bg_ctlKkLI6K8Gw/edit?usp=sharing)
-
-Kayıt edilen bilgiler:
-- Kullanıcı adı
-- Tweet içeriği
-- Duygusal ton
-- Özet
-- Tarih ve zaman
 
 ---
